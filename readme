@@ -8,7 +8,15 @@ Classification required relative power of the characteristics wave, calculated b
 
  total of rhythmic characteristics declared as rhythmic power.
 
-channels with the rhythmic percentage) less than 10% labelled as bad channels i.e. no adequate information of rhythmic content 
+channels with the rhythmic percentage) less than 10% labelled as bad channels i.e. no adequate information of rhythmic content
+
+Rhythmic and Artifact (noise) values used as axes for  SVM classifier. 
+
+plotted the obtained data along with label used, observed linearly separable distribution of the classes of data.
+
+used linear kernel for the SVM classifier.
+
+opted for the value C=2^50 as the misclassification cost
 
 3D-model synthesis focused on 16 main electrodes.
 
